@@ -57,10 +57,12 @@ public static class CommitMessageRegex
         FillSubjectRegex();
         FillBodyRegex();
         FillFooterRegex();
-
-        Logger.LogWarning($"Subject Validation: {SubjectRegex}");
-        Logger.LogWarning($"Body Validation: {BodyRegex}");
-        Logger.LogWarning($"Footer Validation: {FooterRegex}");
+        
+        Logger.BlankLine();
+        Logger.LogWarning("☢️ Generated regex to validate ☢️");
+        Logger.LogInfo($"Subject regex: {SubjectRegex}");
+        Logger.LogInfo($"Body regex: {BodyRegex}");
+        Logger.LogInfo($"Footer regex: {FooterRegex}");
     }
 
     /// <summary>
