@@ -1,0 +1,57 @@
+﻿{
+  "subject": {
+    "allowedTypes": [
+      "feat",
+      "fix",
+      "chore",
+      "test",
+      "docs",
+      "build",
+      "ci",
+      "style",
+      "refactor",
+      "perf",
+      "revert"
+    ],
+    "allowedScopes": [
+      "[\\w\\s!@\\#\\$%\\^\u0026\\*\\(\\)_=\\\u002B~\u0060\u0027\\[\\{}\\*\u00BF\\?\\|:;,\\.\u003E\u003C\\\\\\-\\]\\/]{2,20}"
+    ],
+    "isTypeRequired": true,
+    "isScopeRequired": false,
+    "descriptionRules": {
+      "isRequired": true,
+      "letterCase": "sentence",
+      "minLength": 10,
+      "maxLength": 70,
+      "allowedSpecialChars": [],
+      "mayEndWithPeriod": false,
+      "mustEndWithPeriod": false
+    }
+  },
+  "body": {
+    "isRequired": false,
+    "letterCase": "any",
+    "minLength": 0,
+    "maxLength": 0,
+    "allowedSpecialChars": [],
+    "mayEndWithPeriod": true,
+    "mustEndWithPeriod": false
+  },
+  "footer": {
+    "isRequired": false,
+    "allowedKeywords": [
+      "BREAKING CHANGE",
+      "BREAKING-CHANGE",
+      "[a-z]\u002B(?:-[a-z]\u002B)*"
+    ],
+    "descriptionRules": {
+      "isRequired": true,
+      "letterCase": "sentence",
+      "minLength": 10,
+      "maxLength": 0,
+      "allowedSpecialChars": [],
+      "mayEndWithPeriod": false,
+      "mustEndWithPeriod": false
+    }
+  }
+}

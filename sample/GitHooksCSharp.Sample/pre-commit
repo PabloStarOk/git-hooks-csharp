@@ -1,0 +1,14 @@
+﻿#!/usr/bin/env dotnet-script
+#r "./GitHooksCSharp.dll"
+
+using GitHooksCsharp.Hooks.PreCommit;
+
+// Add target projects.
+PreCommitHook.ProjectPaths.Add("./Sample/Sample.csproj");
+PreCommitHook.ProjectPaths.Add("./Sample2/Sample2.csproj");
+
+// Add test projects to use for testing.
+PreCommitHook.TestProjectPaths.Add("./Sample.Test/Sample.Test.csproj");
+PreCommitHook.TestProjectPaths.Add("./Sample2.Test/Sample2.Test.csproj");
+
+PreCommitHook.Execute();

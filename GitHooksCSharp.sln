@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHooksCSharp", "src\GitHooksCSharp\GitHooksCSharp.csproj", "{E8894A50-ABDD-49AE-BD9F-505063327D63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHooksCSharp.Sample", "sample\GitHooksCSharp.Sample\GitHooksCSharp.Sample.csproj", "{A0994F60-DC74-40C1-BD75-E41DE1E2965F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8894A50-ABDD-49AE-BD9F-505063327D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8894A50-ABDD-49AE-BD9F-505063327D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8894A50-ABDD-49AE-BD9F-505063327D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8894A50-ABDD-49AE-BD9F-505063327D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0994F60-DC74-40C1-BD75-E41DE1E2965F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0994F60-DC74-40C1-BD75-E41DE1E2965F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0994F60-DC74-40C1-BD75-E41DE1E2965F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0994F60-DC74-40C1-BD75-E41DE1E2965F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

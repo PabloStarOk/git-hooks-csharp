@@ -1,0 +1,6 @@
+﻿#!/usr/bin/env dotnet-script
+#r "./GitHooksCSharp.dll"
+
+using GitHooksCsharp.Hooks.PrepareCommitMsg;
+
+PrepareCommitMsgHook.Execute();
